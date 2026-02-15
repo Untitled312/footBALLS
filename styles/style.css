@@ -53,11 +53,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5rem;
 }
 
 .o-container__404 {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .c-card__block__404 {
@@ -66,6 +65,11 @@ body {
 
 .c-card__block {
     margin-top: 50px;
+}
+
+.c-card__block__404>h1 {
+    font-size: 100px;
+    color: brown;
 }
 
 .c-button {
