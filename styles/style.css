@@ -34,12 +34,36 @@ body {
     height: 50px;
 }
 
+.o-image__404 {
+    max-width: 50%;
+}
+
+.c-card {
+    min-height: 54vh;
+}
+
 .c-card__body {
     display: flex;
     align-items: flex-start;
     justify-content: center;
     gap: 5rem;
 }
+
+.c-card__404 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.o-container__404 {
+    font-size: 50px;
+}
+
+.c-card__block__404 {
+    font-size: 30px;
+}
+
 .c-card__block {
     margin-top: 50px;
 }
