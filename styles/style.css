@@ -1,0 +1,49 @@
+:root {
+ --font-family: 'Kanit', sans-serif;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-family);
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.o-container {
+    font-size: 30px;
+}
+
+.o-image__body {
+    max-width: 30%;
+}
+
+.o-image__footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5rem;
+    margin-bottom: 40px;
+}
+
+.o-image__social {
+    height: 50px;
+}
+
+.c-card__body {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5rem;
+}
+.c-card__block {
+    margin-top: 50px;
+}
+
+.c-button {
+    margin-bottom: 20px;
+}
