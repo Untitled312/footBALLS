@@ -23,14 +23,17 @@
                 <a href="about.html" class="c-button c-button--rounded c-button--ghost">About</a>
             </header>
             <main>
-                <div class="c-card__body">
-                    <div class="c-card__block">
-                        <div class="o-container o-container--xsmall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a viverra ante, ac mattis odio. Donec mollis vestibulum sem nec luctus. Maecenas congue lectus quis mi consequat aliquet. Nullam non dolor feugiat, auctor ex non, imperdiet arcu. Fusce vestibulum dui posuere tortor mollis cursus.</div>
-                        <button type="button" class="c-button c-button--rounded c-button--ghost">Start</button>
-                        <button type="button" class="c-button c-button--rounded c-button--ghost">Log In</button>
-                    </div>
-                    <img alt="lamine" class="o-image__body" src="assets/img/footballer.png">
-                </div>
+                <blaze-accordion>
+                    <blaze-accordion-pane header="Who are we?">
+                        Professional sports professionals
+                    </blaze-accordion-pane>
+                    <blaze-accordion-pane header="Who are this guy on main page?">
+                        Cristiano Ronaldo
+                    </blaze-accordion-pane>
+                    <blaze-accordion-pane header="Hotel?">
+                        Trivago
+                    </blaze-accordion-pane>
+                </blaze-accordion>
             </main>
             <div role="separator" class="c-card__item c-card__item--divider"></div>
             <footer class="c-card__footer">
