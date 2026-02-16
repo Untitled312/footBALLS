@@ -72,6 +72,18 @@ body {
     color: brown;
 }
 
+.c-card__body__about {
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
 .c-button {
     margin-bottom: 20px;
 }
+
