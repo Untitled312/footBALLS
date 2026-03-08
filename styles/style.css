@@ -18,6 +18,10 @@ body {
     font-size: 30px;
 }
 
+.o-container__form {
+    font-size: 20px;
+}
+
 .o-image__body {
     max-width: 30%;
 }
