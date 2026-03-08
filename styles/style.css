@@ -53,6 +53,10 @@ body {
     gap: 5rem;
 }
 
+.c-card__item--divider {
+    margin-top: 20px;
+}
+
 .c-card__404 {
     display: flex;
     align-items: center;
