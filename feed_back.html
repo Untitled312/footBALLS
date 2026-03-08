@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>footBALLS | Contact us</title>
+    <link rel="stylesheet" href="https://unpkg.com/@blaze/css@x.x.x/dist/blaze/blaze.css">
+    <script type="module" src="https://unpkg.com/@blaze/atoms@x.x.x/dist/blaze-atoms/blaze-atoms.esm.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="assets/icons/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="u-centered">
+        <div class="c-card">
+            <header class="c-card__header">  
+                <h2 class="c-heading">
+                    footBALLS
+                </h2>
+                <a href="index.html" class="c-button c-button--rounded c-button--ghost">Home</a>
+                <a href="404.html" class="c-button c-button--rounded c-button--ghost">News</a>
+                <a href="404.html" class="c-button c-button--rounded c-button--ghost">Matches</a>
+                <a href="faq.html" class="c-button c-button--rounded c-button--ghost">FAQ</a>
+                <a href="about.html" class="c-button c-button--rounded c-button--ghost">About</a>
+            </header>
+            <main>
+                <form class="o-container o-container__form o-container--small c-card u-high" id="feedbackForm">
+                    <header class="c-card__header">
+                    <h1 class="c-heading">
+                        Feedback
+                    </h1>
+                    </header>
+                    <div class="c-card__body">
+                        <div class="feedback__form">
+                            <label class="c-label">
+                                Email:
+                                <input class="c-field c-field--label" type="email" id="email" placeholder="your@email.com" />
+                            </label>
+                            <label class="o-form-element c-label">
+                                Full name:
+                                <input class="c-field c-field--label" id="fullname" type="text" />
+                            </label>
+                            <label class="o-form-element c-label">
+                                Phone:
+                                <input class="c-field c-field--label" id="phone" type="text" />
+                            </label>
+                            <label class="o-form-element c-label">
+                                Message:
+                                <textarea class="c-field c-field--label" id="message"></textarea>
+                            </label>
+                            <label class="c-field c-field--choice">
+                                <input type="checkbox" id="agree"> I agree to the Terms of Service
+                            </label>
+                        </div>
+                    </div>
+                    <footer class="c-card__footer">
+                        <button type="submit" class="c-button c-button--ghost c-button--info u-large">Submit</button>
+                    </footer>
+                </form>
+            </main>
+            <div role="separator" class="c-card__item c-card__item--divider"></div>
+            <footer class="c-card__footer">
+                <h2 class="c-heading">
+                Our social media:
+                </h2>
+                <div class="o-image__footer">
+                    <img alt="vk_logo" class="o-image__social" src="assets/icons/logo--vk.png">
+                    <img alt="telegram_logo" class="o-image__social" src="assets/icons/logo--telegram.png">
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="scripts/validation.js"></script>
+    <script src="scripts/consoleLogger.js"></script>
+</body>
+</html>
